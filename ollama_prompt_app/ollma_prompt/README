@@ -1,1 +1,4 @@
-
+Project Description
+-> Basic Question Answer app
+-> In this project I have used ollama gemma2:2b model.
+-> To deploy Flask and FastAPI used.
