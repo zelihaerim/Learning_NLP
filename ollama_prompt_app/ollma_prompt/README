@@ -1,4 +1,21 @@
-Project Description
--> Basic Question Answer app
--> In this project I have used ollama gemma2:2b model.
--> To deploy Flask and FastAPI used.
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+p {
+  color: navy;
+  text-indent: 30px;
+  text-transform: uppercase;
+}
+</style>
+</head>
+<body>
+<h3>Project Description</h3>
+
+<p>-> Basic Question Answer app</p>
+<p>-> In this project I have used ollama gemma2:2b model.</p>
+<p>-> To deploy Flask and FastAPI used.</p>
+
+
+</body>
+</html>
