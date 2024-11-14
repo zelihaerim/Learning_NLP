@@ -1,21 +1,5 @@
-<!DOCTYPE html>
-<html>
-<head>
-<style>
-p {
-  color: navy;
-  text-indent: 30px;
-  text-transform: uppercase;
-}
-</style>
-</head>
-<body>
-<h3>Project Description</h3>
+# Project Description
 
-<p>-> Basic Question Answer app</p>
-<p>-> In this project I have used ollama gemma2:2b model.</p>
-<p>-> To deploy Flask and FastAPI used.</p>
-
-
-</body>
-</html>
+- **Basic Question Answer app**
+- In this project, I have used the **ollama gemma2:2b** model.
+- To deploy, **Flask** and **FastAPI** were used.
