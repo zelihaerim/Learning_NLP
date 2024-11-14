@@ -103,6 +103,7 @@
             opacity: 1; /* Firefox */
         }
     </style>
+    
 </head>
 <body>
     <div>
@@ -119,18 +120,20 @@
 
         <div style="text-align:center;">     
             <!-- Form -->
-            <form  style="align-items: center;" method="POST">
+            <form style="align-items: center;" method="POST" id="questionForm">
                 <label for="user_input" class="form__label_v2">Write Question</label>
-                <input type="text" class="form__input" id="user_input" name ="user_input" placeholder="Ex: Could you tell me about Python programming language?" required />    
+                <input type="text" class="form__input" id="user_input" name="user_input" placeholder="Ex: Could you tell me about Python programming language?" required />
                 <label for="user_input" class="form__label">Question</label>
                 <br><br>
-                <button class='btn' type="submit" id="submitButton">Submit Question to Expert</button>
+                <button class="btn" type="submit" id="submitButton">Submit Question to Expert</button>
                 <br><br>
-                <textarea rows="10" cols="100" readonly> {{ text }} </textarea>
+                <div style="border-width: 2px; border-style: solid; border-color: #fff; border-radius: 5px;">
+                    <label for="user_input" class="form__label_v2" style="margin: 3px;">{{question_1}}</label>
+                </div>        
+                <textarea rows="10" cols="100" id="textArea" readonly>{{ text }}</textarea>
             </form>
-        
         </div>
-
+        
         <div style="display: flex; align-items: center; justify-content: center; margin-top: 40px;">
             <div style="margin-right: 20px;">
                 <img src="https://ollama.com/public/ollama.png"  width="50" height="60">
@@ -140,6 +143,7 @@
                 <img src="https://ollama.com/public/ollama.png" width="50" height="60">
             </div>           
         </div>
+        
         
     </div>
 
