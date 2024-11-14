@@ -98,6 +98,10 @@
             font-size: 16px;
             resize: none;
         }
+        ::placeholder {
+            color: rgb(208, 205, 205);
+            opacity: 1; /* Firefox */
+        }
     </style>
 </head>
 <body>
@@ -117,7 +121,7 @@
             <!-- Form -->
             <form  style="align-items: center;" method="POST">
                 <label for="user_input" class="form__label_v2">Write Question</label>
-                <input type="text" class="form__input" id="user_input" name ="user_input" placeholder="Could you tell me about Python programming language?" required />    
+                <input type="text" class="form__input" id="user_input" name ="user_input" placeholder="Ex: Could you tell me about Python programming language?" required />    
                 <label for="user_input" class="form__label">Question</label>
                 <br><br>
                 <button class='btn' type="submit" id="submitButton">Submit Question to Expert</button>
