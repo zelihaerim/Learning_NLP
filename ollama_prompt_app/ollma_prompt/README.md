@@ -1,9 +1,13 @@
-<h3 style="color: navy; text-transform: uppercase; text-indent: 30px;">Project Description</h3>
+<code style="color: navy; text-indent: 60px; text-transform: uppercase;">Project Description</code>
 
-<ul>
-  <li style="color: navy; text-indent: 30px; text-transform: uppercase;"> Basic Question Answer app</li>
-  <li style="color: navy; text-indent: 30px; text-transform: uppercase;"> In this project I have used ollama gemma2:2b model.</li>
-  <li style="color: navy; text-indent: 30px; text-transform: uppercase;"> To deploy Flask and FastAPI used.</li>
-</ul>
+<h3>
+  <ul>
+    <li>  $${\color{blue}  Basic \space Question \space Answer \space app }$$  </li>
+    <li> $${\color{blue}  In \space this \space project \space I \space have \space used \space ollama \space gemma2:2b \space model. }$$  </li>
+    <li> $${\color{blue}  To \space deploy \space Flask \space and \space FastAPI \space used. }$$ </li>
+  </ul>
+</h3>
 
+<h1> $${\color{blue}  Screen \space Shot \space of \space Webapp }$$ </h1>
 
+![Screen Shot of Website](https://github.com/zelihaerim/learning_nlp/blob/master/ollama_prompt_app/ollma_prompt/1.PNG)
