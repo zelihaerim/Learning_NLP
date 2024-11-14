@@ -9,6 +9,5 @@
 </h3>
 
 <h1> $${\color{blue}  Screen \space Shot \space of \space Webapp }$$ </h1>
-Click the play button at the top right of the window :
 
 ![](https://github.com/zelihaerim/learning_nlp/blob/master/ollma_prompt_app/ollama_1.gif)
