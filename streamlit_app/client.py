@@ -42,7 +42,6 @@ def get_ollama_response(input_text, input_type):
 
 st.html("<h2>Langchain Demo With Ollama and Openai</h2>")
 
-
 option_1 = st.selectbox(
     "Select Api type :",
     ("Ollama", "Openai"),
